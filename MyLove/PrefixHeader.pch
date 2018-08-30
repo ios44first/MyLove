@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  MyLove
+//
+//  Created by mac on 14-10-15.
+//  Copyright (c) 2014年 于建祥. All rights reserved.
+//
+
+#ifndef MyLove_PrefixHeader_pch
+#define MyLove_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "MyDefine.h"
+#import "CreateView.h"
+#import "MyFont.h"
+#import "NSString+Tools.h"
+
+#import "UIViewController-ForNavgationItemViewController.h"
+#import "MyNavigationController.h"
+#import "MusicManager.h"
+
+#define MenuWidth 240
+
+#endif
